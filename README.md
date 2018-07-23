@@ -80,9 +80,9 @@ The stand-alone Bash script `cropper.sh` is located in the root folder. It requi
 
 Note that all landscape images are eventually located in `<output-directory>/Landscape/`. All portrait images are eventually located in `<output-directory>/Portrait/`.
 
-All pre-sorted images in `/Users/dominic/Background Images` can be cropped and output to `/Users/dominic/Converted Background Images` via
+All pre-sorted images in `Originals/` can be cropped and output to `Cropped/` via
 ```
-cropper.sh "/Users/dominic/Background Images" "/Users/dominic/Converted Background Images"
+cropper.sh "Originals/" "Cropped/"
 ```
 
 

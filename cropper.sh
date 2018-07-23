@@ -20,7 +20,7 @@ PORTRAIT_HEIGHT=5120
 # Input arguments check
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <input-directory> <output-directory>"
-    echo "Example: $0 "'"/Users/dominic/Background Images" "/Users/dominic/Converted Background Images"'
+    echo "Example: $0 "'"Originals/" "Cropped/"'
     exit -1
 fi
 
