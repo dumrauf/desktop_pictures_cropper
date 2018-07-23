@@ -38,17 +38,38 @@ There are three options available for _landscape_ images:
  2. Center
  3. South
 
+Consider the following example of a lovingly handcrafted example landscape image
+
+![Example Landscape Image](Originals/Center/centre_landscape.png)
+
+The items in the image roughly represent 
+ - the sun in the upper right hand corner,
+ - two mountains in the middle, and 
+ - a pond in the bottom left hand corner.
+
 #### North
 
-This option preservers the top section of the image and clips a bottom section of the image.
+This option preserves the top section of the image and clips a bottom section of the image. For the example landscape image, the resulting cropped image is
+
+![North Example Cropped Landscape Image](Cropped/Landscape/north.jpg)
+
+Here, note how the _pond at the bottom left hand corner has been cropped_.
 
 #### Center
 
-This option preservers the center section of the image and clips an equal section of the top and bottom of the image.
+This option preserves the center section of the image and clips an equal section of the top and bottom of the image. For the example landscape image, the resulting cropped image is
+
+![Centre Example Cropped Landscape Image](Cropped/Landscape/centre_landscape.jpg)
+
+Here, note how the _sun in the upper right hand corner as well as the pond at the bottom left hand corner have been cropped_.
 
 #### South
 
-This option preservers the bottom section of the image and clips a top section of the image.
+This option preserves the bottom section of the image and clips a top section of the image. For the example landscape image, the resulting cropped image is
+
+![South Example Cropped Landscape Image](Cropped/Landscape/south.jpg)
+
+Here, note how the _sun in the upper right hand corner has been cropped_.
 
 
 ### Portait Images
@@ -59,19 +80,40 @@ There are three options available for _portrait_ images:
  2. Center
  3. West
 
+Consider the following example of a lovingly handcrafted example portrait image
+
+![Example Portrait Image](Originals/Center/centre_portrait.png)
+
+The items in the image again roughly represent 
+ - the sun in the upper left hand corner,
+ - two mountains in the middle, and 
+ - a pond in the bottom right hand corner.
+
 #### East
 
-This option preservers the left hand section of the image and clips a section on the right hand side of the image.
+This option preserves the left hand section of the image and clips a section on the right hand side of the image. For the example portrait image, the resulting cropped image is
+
+![East Example Cropped Portrait Image](Cropped/Portrait/east.jpg)
+
+Here, note how the _sun in the upper left hand corner has been cropped_.
 
 #### Center
 
-This option preservers the center section of the image and clips an equal section of the left and right hand side of the image.
+This option preserves the center section of the image and clips an equal section of the left and right hand side of the image. For the example portrait image, the resulting cropped image is
 
-> In order to avoid duplication, the same `Center` folder is _used for landscape and portrait images_.
+![Centre Example Cropped Portrait Image](Cropped/Portrait/centre_portrait.jpg)
+
+Here, note how the _sun in the upper left hand corner as well as the pond at the bottom right hand corner have been cropped_.
+
+> In order to avoid duplication, the same `Center` folder is _used for both landscape and portrait images_.
 
 #### West
 
-This option preservers the right hand section of the image and clips a section on the left hand side of the image.
+This option preserves the right hand section of the image and clips a section on the left hand side of the image. For the example portrait image, the resulting cropped image is
+
+![West Example Cropped Portrait Image](Cropped/Portrait/west.jpg)
+
+Here, note how the _pond in the bottom right hand corner has been cropped_.
 
 
 ## Execution
