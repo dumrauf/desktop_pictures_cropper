@@ -57,7 +57,7 @@ Here, note how the _pond at the bottom left hand corner has been cropped_.
 
 #### Center
 
-This option preserves the center section of the image and clips an equal section of the top and bottom of the image. For the example landscape image, the resulting cropped image is
+This option preserves the centre section of the image and clips an equal section of the top and bottom of the image. For the example landscape image, the resulting cropped image is
 
 ![Centre Example Cropped Landscape Image](Cropped/Landscape/centre_landscape.jpg)
 
@@ -72,7 +72,7 @@ This option preserves the bottom section of the image and clips a top section of
 Here, note how the _sun in the upper right hand corner has been cropped_.
 
 
-### Portait Images
+### Portrait Images
 
 There are three options available for _portrait_ images:
 
@@ -91,7 +91,7 @@ The items in the image again roughly represent
 
 #### East
 
-This option preserves the left hand section of the image and clips a section on the right hand side of the image. For the example portrait image, the resulting cropped image is
+This option preserves the right hand section of the image and clips a section on the left hand side of the image. For the example portrait image, the resulting cropped image is
 
 ![East Example Cropped Portrait Image](Cropped/Portrait/east.jpg)
 
@@ -99,7 +99,7 @@ Here, note how the _sun in the upper left hand corner has been cropped_.
 
 #### Center
 
-This option preserves the center section of the image and clips an equal section of the left and right hand side of the image. For the example portrait image, the resulting cropped image is
+This option preserves the centre section of the image and clips an equal section of the left and right hand side of the image. For the example portrait image, the resulting cropped image is
 
 ![Centre Example Cropped Portrait Image](Cropped/Portrait/centre_portrait.jpg)
 
@@ -109,7 +109,7 @@ Here, note how the _sun in the upper left hand corner as well as the pond at the
 
 #### West
 
-This option preserves the right hand section of the image and clips a section on the left hand side of the image. For the example portrait image, the resulting cropped image is
+This option preserves the left hand section of the image and clips a section on the right hand side of the image. For the example portrait image, the resulting cropped image is
 
 ![West Example Cropped Portrait Image](Cropped/Portrait/west.jpg)
 
@@ -132,7 +132,7 @@ cropper.sh "Originals/" "Cropped/"
 
 Each image `<name>.<suffix>` located in the input directory is eventually converted to `<name>.jpg` in the output directory. Here, `<suffix>` is a file extension `convert` can handle.
 
-As converting and cropping images can be a time consuming task, the Bash script treates each file `<name>.jpg` in the output directory as the converted and cropped image of `<name>.<suffix>`. Hence, `<name>.<suffix>` is assumed to have already been converted and is subsequently ignored.
+As converting and cropping images can be a time consuming task, the Bash script treats each file `<name>.jpg` in the output directory as the converted and cropped image of `<name>.<suffix>`. Hence, `<name>.<suffix>` is assumed to have already been converted and is subsequently ignored.
 
 
 ## FAQs
